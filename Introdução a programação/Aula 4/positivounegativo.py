@@ -4,3 +4,5 @@ while 0 == 0:
         print(f'{num} é positivo')
     else:
         print(f'{num} é negativo')
+
+        #testando git
