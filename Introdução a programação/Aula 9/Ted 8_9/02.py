@@ -6,6 +6,6 @@ for x in range(10):
 posicoes = []
 for var in range(len(VET)):
     for var2 in range((var+1), (len(VET))):
-        if VET[var] == VET[var2] and var not in posicoes:
-            posicoes.append(var)
+        if VET[var] == VET[var2] and var2 not in posicoes:
+            posicoes.append(var2)
             print(f'{VET[var]} repetido no {var2+1}° número')
