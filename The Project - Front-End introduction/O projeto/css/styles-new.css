@@ -1,0 +1,230 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.bodydiv{
+    position: center;
+    width: 100% ;
+    margin: auto;
+    overflow: hidden;
+}
+.topnav{
+    display: flex;
+    margin: px;
+    align-items: center;
+    
+    }
+
+.topnav div{
+    padding-left: 10px;
+    }
+
+
+.topnav ul li{
+    display: inline-block;
+    
+    
+}
+.topnav a{
+    text-decoration: none;
+    color: aliceblue;
+    padding: 10px;
+    font-weight: bold
+}
+#menu{
+    justify-content: flex-end;
+    padding: 0px 20px;
+    background-color: #eb5757;
+    padding: 20px 10%;
+    font-size: 15px;
+}
+
+.nav_links a:hover{
+    background-color: #ec4c4c;    
+}
+#covnav{
+    justify-content: center;
+    background-color: #222;
+    padding: 20px;
+    color: aliceblue;
+    cursor: pointer;
+}
+
+#covnav button{
+    width: 110px;
+    height: 30px;
+    background-color: #eb5757;
+    border-radius: 40px;
+    color: aliceblue;
+    border: 0px;
+    cursor: pointer;
+}
+
+#logo{
+    margin-right: auto;
+    cursor: pointer;
+}
+#logo :hover{
+    background-color: none;
+}
+#carrinho{
+    width: 50px ;
+    height: 30px;
+    border-radius: 10px;   
+    cursor: pointer;
+    background-color: #222;
+}
+
+.part1pa{
+    margin: 0px;
+    padding:0px;
+}
+.part1{
+    position: relative;
+    height: 380px;
+    overflow: hidden;
+    background: url(../projeto-arquivos/imagem1.jpg) 0px  ;
+    background-repeat: no-repeat;
+    background-size: 100% ;
+
+}
+
+#img{
+    z-index: -1;
+    position: absolute;
+    top: -130px;
+    width: 100%;
+}
+#serving{
+    top:10% ;
+    left: 205px;
+    position: absolute ;
+    color: aliceblue;
+    height: 200px;
+    overflow: hidden;
+    margin: 0px;
+    border: 0px;
+}
+#serving h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#p1-button{
+    border: 1px  solid white;
+    border-radius: 3px;
+    background-color: transparent;
+    color: white;
+    margin-top: 10px;
+    width: 110px;
+    height: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.p2-div{
+    background-color: rgb(60, 60, 179);
+    position: relative ;
+    height: 100px;
+    width: 100%;
+}
+
+.p2way{
+    position: absolute;
+    top: 20px;
+    left: 10px;
+}
+
+.p2cov{
+    position: absolute;
+    top: 20px;
+    right: 100px;
+}
+
+.p2-caixona{
+    position: relative;
+    width: auto;
+    height: 500px;
+    background-color: green;
+}
+.p2-caixa{
+    background-color: #ec4c4c;
+    position: absolute;
+    width: 320px;
+    height: 500px;
+    margin: none;
+}
+
+.p2-caixinha{
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    color: white;
+    background-color: black;
+    position: absolute;
+    left: 10px;
+}
+
+#p2-circle-card{
+    top: 0px;
+    left: 10px;
+}
+
+#p2-triangle-card{
+    top: 0px;
+    left: 500px;
+}
+
+#p2-rectangle-card{
+    top: 0px;
+    left: 1000px;
+}
+
+.p2-texto{
+    position: absolute;
+    top: 300px;
+}
+
+.p3-img{
+    position: relative;
+    height: 480px;
+    overflow: hidden;
+    background: url(../projeto-arquivos/imagem2.jpg) 0px  ;
+    background-repeat: no-repeat;
+    background-size: 100% ;
+}
+
+.p4-caixona{
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+    background-color: green;
+    align-items: flex-start;
+}
+
+.p4-caixa{
+    position: relative;
+    float: left;
+    padding: 10px;
+    width: 400px;
+    height: 350px;
+    margin: 0px;
+    border: 0px;
+    margin: 10px;
+    background-color: pink;
+}
+
+.p5-button-div{
+    height: 30px;
+    position: relative;
+    background-color: red;
+    align-items: center;
+}
+
+#p5-button{
+    position: relative;
+    float: inline-start;
+    color: blue;
+    left: 50%;
+}
