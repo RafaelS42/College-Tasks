@@ -23,10 +23,4 @@ if (media >= 7 ) {
     } else {
         alert('Aluno Reprovado')
     }
-
 }
-
-
-
-console.log("As nostas são " + notas.toFixed(2));
-alert("A média é " + media )
